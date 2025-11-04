@@ -1,6 +1,6 @@
 :root {
   --background: #ffffff;
-  --foreground: #000000;
+  --foreground: #ffffff;
   /* valeurs de secours pour l'IDE */
   --font-geist-sans: avoid IDE error;
   --font-geist-mono: avoid IDE error;
@@ -12,7 +12,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #800202;
+    --background: #202020;
     --foreground: #000000;
   }
 }

@@ -58,9 +58,9 @@ a.primary {
     display: inline-flex;
     background: var(--background-button);
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     color: var(--text-button);
-    padding: 10px 22px;
+    padding: 10px 42px;
     border-radius: 10px;
     gap: 20px;
     margin-top: 12px;

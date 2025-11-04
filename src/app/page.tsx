@@ -11,7 +11,7 @@ export default function Home() {
             Mon nouveau site web photo<br/>
             <a
               href="https://swisspotter.ch"
-              //className={styles.primary}
+              className={styles.primary}
               target="_blank"                   // indique d'ouvrir le lien dans un nouvel onglet
               rel="noopener noreferrer"         // mesures de sécurité pour les liens externes
             >
