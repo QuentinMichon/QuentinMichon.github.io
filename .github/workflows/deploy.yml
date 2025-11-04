@@ -17,10 +17,10 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+
+      # ✅ On force un npm public sans auth
+      - run: npm config set //registry.npmjs.org/:_authToken "dummy"
       - run: npm ci
-      # 👉 Set cette variable si TON REPO n'est PAS "username.github.io"
-      #    Elle active basePath/assetPrefix dans next.config.ts
-      - run: echo "GITHUB_PAGES=true" >> $GITHUB_ENV
       - run: npm run build
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
