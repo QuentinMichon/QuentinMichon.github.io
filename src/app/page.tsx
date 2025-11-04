@@ -5,7 +5,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.intro}>
-          <h1>PORTFOLIO,<br/>
+          <h1>Portfolio,<br/>
               Quentin Michon</h1>
           <p>
             Mon nouveau site web photo<br/>
