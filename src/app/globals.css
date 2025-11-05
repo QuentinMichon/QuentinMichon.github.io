@@ -1,19 +1,25 @@
 :root {
-  --background: #ffffff;
-  --foreground: #ffffff;
-  /* valeurs de secours pour l'IDE */
-  --font-geist-sans: avoid IDE error;
-  --font-geist-mono: avoid IDE error;
+    --background: #dcdcdc;
+    --foreground: #ffffff;
 
-    --text-button: #ffffff;
-    --background-button: #024873;
+    /* valeurs de secours pour l'IDE */
+    --font-geist-sans: avoid IDE error;
+    --font-geist-mono: avoid IDE error;
+
+    --text-primary: #000000;
+    --text-secondary: #666666;
+
+    --button-text: #ffffff;
+    --button-background: #024873;
     --button-primary-hover : #0388A6;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #202020;
-    --foreground: #000000;
+      --text-primary: #ffffff;
+
+      --background: #202020;
+      --foreground: #000000;
   }
 }
 
